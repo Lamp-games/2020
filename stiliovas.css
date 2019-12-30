@@ -14,6 +14,12 @@ body
     height:100%;
     background-color: black;
     color:aliceblue;
+
+}
+h1,h2,p,h3
+{
+        text-shadow: 0px 0px 15px #fff;
+
 }
 footer
 {
@@ -28,9 +34,19 @@ main
 
 main div
 {
+    text-align: center;
+    align-content: center;
     padding:15px;
     margin:5px auto;
+    width: 25%;
+    min-width: 222px;
     max-width: 666px;
+    box-shadow: -12px -12px 4px -10px rgba(0, 128, 128, 1), 12px 12px 4px -10px rgba(0, 128, 128, 0.2);
+    box-shadow: -20px -20px 0 2px rgba(0, 128, 128, 1), 20px 20px 0 2px rgba(0, 128, 128, 1);
+    background-image: linear-gradient(225deg, rgba(0, 128, 128, 0.6) 30%, rgba(0, 23, 23, 0.6) 50%);
+    border-left: 2px solid rgba(0, 128, 128, 1);
+    border-right: 2px solid rgba(0, 128, 128, 1);
+    box-shadow: 0px 0px 4px 4px rgba(0, 128, 128, 0.2), inset 0px 0px 50px 4px rgba(0, 128, 128, 0.5);
     
 }
 div img
